@@ -1,4 +1,4 @@
-п»ї
+
 
 #include <iostream>
 #include "DoubArr.h"
@@ -17,7 +17,7 @@ int main()
 	//int row = 4;
 	//int col = 3;
  //
-	//int** ptrr = new int* [row];////  new int* [row]; - Г¬Г Г±ГЁГў Г Г¤Г°ГҐ
+	//int** ptrr = new int* [row];////  new int* [row]; - масив адре
 
 
 	///*ptrr[0] = new int[col] {1, 2, 3};
@@ -28,7 +28,7 @@ int main()
 
 	//for (int j = 0; j < row; j++)
 	//{
-	//	ptrr[j] = new int[col] {};/// {} Г§Г ГЇГ®ГўГ­ГѕВєГ¬Г® 0 
+	//	ptrr[j] = new int[col] {};/// {} заповнюємо 0 
 	//}
 
 
@@ -77,6 +77,8 @@ int main()
 	PrintCharStringArray(strArray, 3);
 
 	DeleteCharStringArray(strArray, 3);
+
+	cout << "Greetings from My Brunch" << endl;
 
 
 
