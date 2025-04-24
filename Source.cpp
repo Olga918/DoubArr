@@ -81,6 +81,8 @@ int main()
 	cout << "Greetings from My Brunch" << endl;
 
 
+	cout << "salut" << endl;
+
 
 
 
